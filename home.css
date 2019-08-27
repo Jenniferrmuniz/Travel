@@ -1,0 +1,120 @@
+
+body{
+    font-family: fantasy;
+}
+
+header{
+    border-bottom: 5px double rgba(243, 136, 14, .8);
+}
+
+.container{
+    text-align: center;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#title-screen {
+    position: absolute;
+    margin-top:250px;
+  }
+#title-screen h1{
+    color: black;
+    padding: 10px;
+    text-shadow: 3px 3px rgba(0, 0, 0, .4);
+    font-size: 90px;
+}
+
+
+.zoom{
+	overflow: hidden;
+    display:flex;
+   /* padding-bottom: 20%;*/
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 45px 0;
+    border: 6px groove rgba(243, 136, 14, .7);
+   
+}
+.zoom img{
+    position: relative;
+    left:50%;
+	max-width: 200%;
+	width: 100%;
+    transform: translateX(-50%);
+    opacity: .4;
+    height: 700px;
+    align-self: center;
+ 
+    justify-content: center;
+}
+
+@media (max-width: 667px) {
+    .zoom{
+        overflow: hidden;
+        padding-bottom: 75%;
+    }
+}
+
+#find-trip{
+    display:flex;
+    justify-content: center;
+    margin: 75px 0;
+}
+
+#find-trip a{
+    padding: 20px 50px 20px 50px;
+    background-color: rgba(243, 136, 14, .3);
+    border-radius: 30px;
+    border: 4px outset rgba(243, 136, 14, .9);
+    color: black;
+}
+
+#find-trip a:hover{
+    transform: scale(1.6);
+}
+
+
+.advice-section{
+    display:flex;
+    flex-direction: horizontal;
+    justify-content: space-around;
+
+
+}
+
+.advice-section div{
+    background-color: rgba(243, 136, 14, .6);
+    box-shadow: 5px 5px rgba(243, 136, 14, .3);
+    border-radius: 30px;
+    width: 20vw;
+    margin: 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.advice-section img{
+    width: 70px;
+    margin: 20px;
+}
+
+
+#outer-website{
+    display:flex;
+    justify-content: center;
+
+}
+iframe {
+    width:50vw;
+    height: 350px;
+    padding: 10px;
+    margin: 80px;
+    border: 6px solid rgba(243, 136, 14, .7);
+}

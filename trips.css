@@ -1,0 +1,137 @@
+body{
+    font-family: fantasy;
+}
+
+
+*{
+    transition: all .3s;
+}
+
+header{
+    border-bottom: 5px double rgba(243, 136, 14, .8);
+}
+
+
+
+#trips{
+    margin: 30px;
+    text-decoration: underline solid rgba(243, 136, 14, .7);
+    font-size: 45px;
+}
+
+
+.trips-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.trips-container h3{
+    font-size: 80px;
+}
+
+.trips-container li{
+    list-style-type: none;
+    margin: 25px;
+}
+
+.trips-container a{
+    color: black;
+    font-size: 30px;
+}
+
+
+
+#globe {
+    -webkit-animation: rotation 20s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+
+#nav-trips{
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.trip-link{
+    padding: 10px 30px;
+}
+
+hr{
+    height: 3px;
+    background-color: rgba(0, 1, 1, .7);
+    margin: 100px 40px 40px 40px;
+}
+
+
+section{
+    margin: 10px;
+}
+
+.category{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px 10px;
+    border-radius: 30px;
+}
+
+.category h3{
+    padding: 15px;
+    margin: 5px;
+    font-size: 50px;
+}
+
+.list-of-trips{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.trip{
+    padding: 25px;
+    margin: 15px;
+    background-color: rgba(243, 136, 14, .7);
+    border-radius: 30px;
+    width: 25vw;
+    box-shadow: 5px 5px rgba(243, 136, 14, .3);
+}
+
+.trip:hover{
+    transform: scale(1.1);
+}
+
+.trip img{
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.trip p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
