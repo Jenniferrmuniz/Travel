@@ -1,5 +1,7 @@
 body{
     font-family: fantasy;
+    background-color: rgba(133, 185, 221, .5);
+    z-index: -1;
 }
 
 
@@ -8,14 +10,14 @@ body{
 }
 
 header{
-    border-bottom: 5px double rgba(243, 136, 14, .8);
+    border-bottom: 5px double rgba(243, 136, 14, .9);
 }
 
 
 
 #trips{
     margin: 30px;
-    text-decoration: underline solid rgba(243, 136, 14, .7);
+    text-decoration: underline solid rgba(243, 136, 14, .8);
     font-size: 45px;
 }
 
@@ -103,10 +105,10 @@ section{
 .trip{
     padding: 25px;
     margin: 15px;
-    background-color: rgba(243, 136, 14, .7);
+    background-color: rgba(243, 136, 14, .8);
     border-radius: 30px;
     width: 25vw;
-    box-shadow: 5px 5px rgba(243, 136, 14, .3);
+    box-shadow: 5px 5px rgba(243, 136, 14, .5);
 }
 
 .trip:hover{

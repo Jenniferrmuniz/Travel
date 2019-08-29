@@ -1,6 +1,8 @@
 
 body{
     font-family: fantasy;
+    background-color: rgba(133, 185, 221, .5);
+    z-index: -1;
 }
 
 header{

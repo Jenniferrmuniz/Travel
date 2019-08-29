@@ -129,3 +129,7 @@ var lookup = {
   
     document.querySelector("#cost > p").innerHTML = total;
   }
+
+
+
+
