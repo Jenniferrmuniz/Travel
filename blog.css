@@ -35,7 +35,7 @@ header{
   max-width: 200px;
 }
 #main{
-background-color: rgba(133, 185, 221, .5);
+background-color: rgba(133, 185, 221, .1);
 margin: 0;
 padding: 0;
 width: 100vw;
